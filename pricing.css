@@ -1,0 +1,179 @@
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #1E1E1E;
+    color: #fff;
+}
+/* HEADER */
+.header {
+    background-color: #1E1E1E;
+    width: 100%;
+}
+.header-body {
+    width: 1300px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Manrope';
+}
+.header-title{
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    color: #fff;
+    transition: 0.7s;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+.header-menu-link {
+    
+    margin-left: 30px;
+}
+.header-menu-link a{
+    color: #fcf7de;
+    font-size: 17px;
+    font-weight: 400;
+    text-shadow: 0 0 3px #000;
+    transition: 0.7s;
+}
+.header-menu-link a:hover{
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkorange;
+}
+.header-logo:hover{
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkorange;
+}
+.header-menu-link-down{
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 6px;
+    color: #f8f8f8;
+}
+/* MAIN */
+.naim {
+    padding-top: 200px;
+    color: #fff;
+}
+.naim-text-1 {
+    padding: 10px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 42px;
+}
+.naim-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 550px;
+    padding-bottom: 50px;
+}
+.flex-cards{
+    display: flex;
+}
+.flex-card-1{
+    
+}
+.flex-card-2{
+    margin-top: 150px;
+    padding-left: 120px;
+}
+.cards-1{
+    margin: 20px;
+    width: 516px;
+    height: 292px;
+    background: url(./img/Rectangle.png);
+    margin-bottom: 200px;
+    box-shadow: 0px 10px 30px #73d616;
+}
+
+.cards-2{
+    margin: 20px;
+    width: 516px;
+    height: 292px;
+    background: url(./img/Rectangle.png);
+    margin-bottom: 200px;
+    
+    box-shadow: 0px 10px 30px #d616c6;
+}
+.cards-3{
+    margin: 20px;
+    width: 516px;
+    height: 516px;
+    background: url(./img/Rectangle-1.png);
+    margin-bottom: 200px;
+    box-shadow: 0px 10px 30px #1689d6;
+}
+
+.cards-span {
+    font-size: 100px;
+    margin: 100px 200px;
+
+}
+.cards-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.cards-text1{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 230px;
+}
+.cards-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+}
+.footer-1{
+    margin-top: 350px;
+    padding: 20px;
+    padding-right: 230px;
+}
+.footer-2 {
+    padding: 20px;
+    padding-right: 230px;
+}
+.footer-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 13px;
+    color: #A37BF4;
+    background-color: rgba(157, 69, 240, 0.747);
+    width: 87px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px 10px;
+}
+.footer-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+}
+.footer-text-3 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+}

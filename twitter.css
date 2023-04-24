@@ -1,0 +1,305 @@
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #1E1E1E;
+    color: #fff;
+}
+/* HEADER */
+.header {
+    background-color: #1E1E1E;
+    width: 100%;
+}
+.header-body {
+    width: 1300px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Manrope';
+}
+.header-title{
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    color: #fff;
+    transition: 0.7s;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+.header-menu-link {
+    
+    margin-left: 30px;
+}
+.header-menu-link a{
+    color: #fcf7de;
+    font-size: 17px;
+    font-weight: 400;
+    text-shadow: 0 0 3px #000;
+    transition: 0.7s;
+}
+.header-menu-link a:hover{
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkorange;
+}
+.header-logo:hover{
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkorange;
+}
+.header-menu-link-down{
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 6px;
+    color: #f8f8f8;
+}
+/* MAIN */
+.naim {
+    padding-top:300px ;
+    text-align: center;
+}
+.naim-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 64px;
+}
+.naim-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+}
+.flex-block:hover{
+    transform: translateY(-20px);
+}
+.flex-block{
+    transition: 0.4s;
+}
+.prais {
+    background: url(./img/Rectangle-5.png);
+    padding: 40px;
+    width: 365px;
+    height: 566px;
+    margin: 20px;
+    box-shadow: inset 0px 0px 10px #00f382;
+}
+.prais-2{
+    background: url(./img/Rectangle-5.png);
+    padding: 40px;
+    width: 365px;
+    height: 566px;
+    margin: 20px;
+    box-shadow: inset 0px 0px 10px #ee3adf;
+}
+.prais-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+}
+.prais-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 50px;
+}
+.prais-text-3 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 105px;
+}
+.prais-flex{
+    display: flex;
+    padding-left:18px ;
+    padding-bottom: 10px;
+}
+.flex-img{
+    padding-right: 10px;
+}
+.flex-text{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.prais-3 {
+    background: url(./img/Rectangle-5.png);
+    padding: 40px;
+    width: 365px;
+    height: 566px;
+    margin: 20px;
+    box-shadow: inset 0px 0px 10px #00f382;
+}
+.prais-text-11 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+}
+.prais-text-21 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 50px;
+    padding-right: 20px;
+}
+.prais-text-31 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+.prais-flex1{
+    display: flex;
+    padding-left:18px ;
+    padding-bottom: 10px;
+}
+.flex-img1{
+    padding-right: 10px;
+    width: 30px;
+    height: 22px;
+}
+.flex-text1{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.prais-button-1{
+    width: 267px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    margin: 60px auto;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.prais-button-2{
+    width: 267px;
+    height: 48px;
+    background: #621DED;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    margin: 40px auto;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.prais-button-3{
+    width: 267px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    margin: 50px auto;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.prais-button-1:active{
+    background: #f50303;
+    font-family: 'Manrope';
+}
+.prais-button-2:active{
+    background: #f5dd03;
+    font-family: 'Manrope';
+}
+.prais-button-3:active{
+    background: #59f300;
+    font-family: 'Manrope';
+}
+.Answers {
+    padding-top:300px ;
+    text-align: center;
+}
+.Answers-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 64px;
+}
+.Answers-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+.question {
+    display: flex;
+    padding-left:120px ;
+    padding-top: 30px;
+}
+.question-img {
+    padding-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+.question-text {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+}
+.border{
+    width: 1500px;
+    border: 1px solid #e4dcdc;
+}
+.footer-title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.footer-logo {
+    color: #fff;
+}
+footer{
+    margin-top:300px ;
+}
+.footer-img {
+    float: left;
+    padding: 10px;
+}
+.footer-text {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 13px;
+    float: right;
+}
+.footer-flex{
+    float: left;
+    margin-right: 40px;
+    margin-left: 200px;
+}
+.footer-flex1{
+    float: left;
+
+}
+.footer-li{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+.footer-li:hover{
+    color: rgb(165, 170, 170);
+}
+

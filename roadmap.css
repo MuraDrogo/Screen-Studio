@@ -1,0 +1,144 @@
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #1E1E1E;
+    color: #fff;
+}
+/* HEADER */
+.header {
+    background-color: #1E1E1E;
+    width: 100%;
+}
+.header-body {
+    width: 1300px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Manrope';
+}
+.header-title{
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    color: #fff;
+    transition: 0.7s;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+.header-menu-link {
+    
+    margin-left: 30px;
+}
+.header-menu-link a{
+    color: #fcf7de;
+    font-size: 17px;
+    font-weight: 400;
+    text-shadow: 0 0 3px #000;
+    transition: 0.7s;
+}
+.header-menu-link a:hover{
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkorange;
+}
+.header-logo:hover{
+    font-style: oblique;
+    text-decoration: underline;
+    color: darkorange;
+}
+.header-menu-link-down{
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 6px;
+    color: #f8f8f8;
+}
+/* MAIN */
+.main-block {
+    padding: 100px 20px;
+}
+.block {
+    text-align: center;
+    
+}
+.block-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 42px;
+
+}
+.block-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    margin: 20px 200px;
+}
+.meet {
+    padding-top:300px ;
+    text-align: center;
+}
+.meet-text-1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 42px;
+}
+.meet-text-2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.coments-{
+    display: flex;
+    justify-content: space-between;
+}
+.comenty-1{
+    margin-top: 80px;
+}
+.coment {
+    background: url(./img/Rectangle-2.png);
+    width: 570px;
+    height: 210px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px #c95353, 0px 2px 9px #ca9c1f;
+}
+.coment-img{
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;/* щоб текст був біля фото */
+}
+.coment-text-1 {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.coment-text-2 {
+    padding-bottom: 40px;
+}
+.coment-text-3 {
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 17px;
+}
+.footer-text{
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
